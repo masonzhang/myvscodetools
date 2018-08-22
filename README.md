@@ -1,6 +1,6 @@
-# a51 README
+# myvscodetools README
 
-This is the README for your extension "a51". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "myvscodetools". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

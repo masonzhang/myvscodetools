@@ -1,9 +1,9 @@
 {
-    "name": "a51",
-    "displayName": "a51",
-    "description": "a51",
+    "name": "myvscodetools",
+    "displayName": "myvscodetools",
+    "description": "myvscodetools",
     "version": "0.0.1",
-    "publisher": "a51",
+    "publisher": "myvscodetools",
     "engines": {
         "vscode": "^1.26.0"
     },
@@ -11,13 +11,13 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.a51SelectIn"
+        "onCommand:extension.mySelectIn"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.a51SelectIn",
+                "command": "extension.mySelectIn",
                 "title": "Select In"
             }
         ]
