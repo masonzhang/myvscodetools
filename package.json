@@ -3,7 +3,7 @@
     "displayName": "myvscodetools",
     "description": "myvscodetools",
     "version": "0.0.1",
-    "publisher": "myvscodetools",
+    "publisher": "aladdina",
     "engines": {
         "vscode": "^1.26.0"
     },
@@ -22,6 +22,7 @@
             }
         ]
     },
+    "repository": "https://github.com/masonzhang/myvscodetools",
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
