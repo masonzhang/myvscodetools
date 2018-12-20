@@ -29,8 +29,10 @@ export function activate(context: vscode.ExtensionContext) {
         }
 
         let selection = editor.selection;
-        let range = new vscode.Range(editor.document.positionAt(0), editor.document.positionAt(editor.document.getText().length - 1));
-        if(selection !== null && selection.end > selection.end) {
+        let range = new vscode.Range(editor.document.positionAt(0), editor.document.positionAt(editor.document.getText().length));
+        if(selection !== null && 
+            (selection.end.line > selection.start.line || 
+                (selection.end.line === selection.start.line && selection.end.character > selection.start.character))) {
             range = new vscode.Range(selection.start, selection.end);
         }
         let text = editor.document.getText(range);

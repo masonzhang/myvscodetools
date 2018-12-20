@@ -2,7 +2,7 @@
     "name": "myvscodetools",
     "displayName": "myvscodetools",
     "description": "myvscodetools",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "aladdina",
     "engines": {
         "vscode": "^1.26.0"
