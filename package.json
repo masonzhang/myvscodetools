@@ -41,6 +41,6 @@
     "dependencies": {
         "@types/lodash": "^4.14.116",
         "clipboardy": "^2.0.0",
-        "lodash": "^4.17.13"
+        "lodash": "^4.17.19"
     }
 }
