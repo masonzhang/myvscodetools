@@ -33,7 +33,7 @@
     },
     "devDependencies": {
         "typescript": "^3.5.1",
-        "vscode": "^1.1.21",
+        "vscode": "^1.1.37",
         "tslint": "^5.8.0",
         "@types/node": "^12.0.4",
         "@types/mocha": "^5.2.7"
